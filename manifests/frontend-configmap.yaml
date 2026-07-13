@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: frontend-config
+  namespace: twotier-app
+data:
+  APP_TITLE: "My Two-Tier App"
+  BACKEND_HOST: "redis-service"
